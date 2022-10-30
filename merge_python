@@ -9,7 +9,9 @@ def mergeSort(arr):
 		L = arr[:mid]
 
 		# into 2 halves
-		R = arr[mid:]
+
+
+R = arr[mid:]
 
 		# Sorting the first half
 		mergeSort(L)
